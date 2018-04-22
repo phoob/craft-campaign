@@ -7,5 +7,9 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - Yii2
+        - PhpBrowser
+            url: 'http://craft3/index.php'
+        - Yii2:
+            configFile: 'tests/_craft/config/test.php'
+            entryUrl: 'http://craft3/index.php'
         - \Helper\Acceptance

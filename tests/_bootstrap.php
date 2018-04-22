@@ -17,4 +17,4 @@ if (file_exists($root.'/.env')) {
 
 // Craft
 define('CRAFT_BASE_PATH', $root);
-require $root.'/vendor/craftcms/cms/bootstrap/console.php';
+require $root.'/vendor/craftcms/cms/bootstrap/web.php';

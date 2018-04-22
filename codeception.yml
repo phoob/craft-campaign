@@ -16,7 +16,3 @@ coverage:
       - tests/_support/_generated/*
 params:
   - env
-modules:
-  config:
-    Yii2:
-      configFile: 'tests/_craft/config/test.php'
